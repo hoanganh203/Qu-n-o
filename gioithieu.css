@@ -1,0 +1,97 @@
+
+.contentGT{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 30px 0px;
+
+}
+
+.contentGT__img--step1{
+    background-image: url(https://nhiepanhquangcao.com/wp-content/uploads/2021/01/xu-huong-chup-quan-ao.jpg);
+    width: 450px;
+    height: 300px;
+    background-size: 100% 100%;
+    
+
+}
+
+.contentGT__img--step2{
+    background-image: url(https://nhiepanhquangcao.com/wp-content/uploads/2021/01/xu-huong-chup-quan-ao.jpg);
+    width: 450px;
+    height: 300px;
+    background-size: 100% 100%;
+
+}
+
+.contentGT__img--step3{
+    background-image: url(https://nhiepanhquangcao.com/wp-content/uploads/2021/01/xu-huong-chup-quan-ao.jpg);
+    width: 450px;
+    height: 300px;
+    background-size: 100% 100%;
+
+}
+
+.titleGT{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.titleGT h1{
+    font-weight: 100;
+}
+
+.contentGT__items:hover .contentGT__text{
+    display: block;
+    animation: grow both 1s;
+
+}
+
+.contentGT__items:hover .contentGT__text1{
+    display: block;
+    animation: grow1 alternate-reverse 0.9s;
+}
+
+.contentGT__items:hover .contentGT__text--items{
+display: block;
+animation: test both 1s;
+}
+
+.contentGT__text--items{
+    display: none;
+   margin: 0px 30px 0px 20px;
+   text-align: left;
+   opacity: 0.9;
+   width: 400px;
+   color: #fff;
+   letter-spacing: 1px;
+
+}
+
+.contentGT__text--items h1{
+    font-family: sans-serif;
+}
+
+.contentGT__text{
+    background-color: rgba(58, 55, 55, 0.7);
+    width: 225px;
+    text-align: center;
+    display: none;
+    height: 300px;
+    float: left;
+}
+
+
+.contentGT__text1{
+    background-color: rgba(58, 55, 55, 0.7);
+    width: 225px;
+    color: #fff;
+    display: none;
+    margin-left: 225px;
+    height: 300px;
+}
+
+
+
+
+
+

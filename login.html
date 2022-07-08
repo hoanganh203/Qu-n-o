@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập tài khoản Hoàng Anh store</title>
+    <link rel="stylesheet" href="base.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            height: 0px;
+        }
+
+        html {
+            height: 0px;
+        }
+
+        #layout {
+            background-image: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80);
+            background-size: 100% 100%;
+            height: 750px;
+            padding-top: 10px;
+
+        }
+        #form {
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 400px;
+            height: 450px;
+            color: #fff;
+            margin: 100px 513px;
+            padding-left: 100px;
+            border-radius: 10px;
+            animation: login both 22s;
+        }
+
+        .HA{
+            margin: 160px 0px 0px 60px;
+            padding-top: 10px;
+            font-size: 19px;
+
+        }
+
+        
+        h1 {
+            margin: -20px 0px 30px 70px;
+            padding-top: 20px;
+        }
+
+       input{
+        outline: none;
+        padding: 9px 2px;
+        width: 290px;
+       }
+
+       input:hover{
+        box-shadow: 2px 1px 6px 1px  rgba(255, 255, 255, 0.5);
+        animation: size both 1s;
+       }
+
+   
+
+       h4{
+        font-weight: 50;
+        font-size: 18px;
+        margin-bottom: 5px;
+       }
+
+       .name{
+        margin: 30px 0px 0px 0px;
+       }
+       
+       .pass{
+        margin: 20px 0px 30px 0px;
+       }
+
+       button{
+        border: none;
+        padding: 10px 15px;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-bottom: 30px;
+       }
+
+       button:hover{
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+       }
+
+       .login{
+        margin: 0px 0px 0px 250px;
+       }
+
+       .login a:hover{
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+       }
+
+       .login a{
+        text-decoration: none;
+        background-color: rgba(255, 255, 255, 0.96);
+        padding: 9px 20px;
+        color: black;
+       }
+
+       .qmk a{
+        width: 140px;
+        color: blue;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 18px;
+       }
+
+       .qmk a:hover{
+        color: #fff;
+       }
+
+
+
+
+
+   
+ 
+
+    </style>
+</head>
+
+<body>
+    <div id="layout">
+        <form id="form" onsubmit="login()">
+            <div class="HA">
+                HOÀNG ANH STORE
+            </div>
+            <h1>Đăng Nhập</h1>
+            <div class="name">
+                <h4>UseName</h4>
+                <input id="usename" type="text" placeholder="Nhập useName">
+            </div>
+            <div class="pass">
+                <h4>Password</h4>
+                <input id="password" type="password" placeholder="Nhập passwword"> <br>
+            </div>
+            <button id="signup">Login</button> <br>
+            <div class="qmk">
+            <a href="#">Quên mật khẩu?</a>
+        </div>
+
+            <div class="login">
+            <a href="sinup.html">Sign up</a>
+        </div>
+        </form>
+    </div>
+</body>
+<script src="kiemtra.js"></script>
+
+
+</html>

@@ -1,0 +1,866 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background-color: rgba(253, 248, 248, 0.5);
+}
+
+
+.header__logo img {
+    width: 90px;
+    height: 80px;
+    margin: 0px 0px 0px 40px;
+    animation: hienthi1 ease-in 2s;
+    z-index: 20;
+}
+
+.header__menu {
+    margin: 0px 0px 0px 50px;
+    display: flex;
+}
+
+.header__menu--list {
+    margin: 30px 100px;
+    display: flex;
+    height: 0px;
+}
+
+.header__menu--list ul li {
+    list-style: none;
+    width: 128px;
+}
+
+.header__menu--list .header__menu--list-step1 li {
+    width: 220px;
+}
+
+
+
+.header__menu--list--item {
+    margin-right: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: #000;
+    z-index: 1;
+    font-weight: 5;
+    animation: slide1 5s ease infinite;
+}
+
+.header__menu--list--item:hover {
+    color: orangered;
+}
+
+.header__menu--list-item--menucon:hover #header__menu--list1 {
+    display: block;
+    animation: hienthi1 ease-in-out 0.5s;
+    transform-origin: 10% top;
+}
+
+.header__menu--list-step {
+    height: 0px;
+
+}
+
+.link1 {
+    margin: 8px 27px 0px 27px;
+    display: flex;
+    z-index: 10;
+}
+
+.link__list1 {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 5px 10px 25px 10px;
+    border-radius: 5px;
+
+}
+
+.link__list1:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    animation: opacti ease-in-out 0.5s;
+}
+
+
+.fa-solid {
+    font-size: 30px;
+    padding: 10px;
+    animation: hienthi ease-in 1s;
+
+    border-radius: 5px;
+    margin-left: 35px;
+
+}
+
+
+
+.fa-solid:hover {
+    border-radius: 10px;
+    background-color: #899;
+    color: #fff;
+    animation: opacti ease-in 0.6s;
+}
+
+/* ------------star menu con------------ */
+
+.Menu__con {
+    list-style: none;
+}
+
+#header__menu--list1 {
+    display: none;
+    animation: opacti ease-out 0.6s;
+    margin-top: -10px;
+}
+
+#header__menu--list1::before {
+    content: "";
+    border: 30px solid;
+    border-color: transparent transparent rgba(11, 11, 11, 0.5) transparent;
+    margin-left: 15px;
+}
+
+.header__menu--list--menucon {
+    display: flex;
+    justify-content: space-around;
+    margin: 29.5px 380px;
+
+}
+
+
+.header__menu--list--menucon-step {
+    background-color: rgba(11, 11, 11, 0.5);
+    padding: 10px 0px 10px 20px;
+    z-index: 10;
+}
+
+.header__menu--list--menucon .header__menu--list--menucon-step li {
+    width: 235px;
+}
+
+
+.header__menu--list--item-menucon {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 5;
+    line-height: 30px;
+}
+
+.header__menu--list--item-menucon:hover {
+    opacity: 0.9;
+    border-bottom: #fff solid 1px;
+}
+
+/* end menucon */
+
+
+/* star search */
+.search {
+    width: 100%;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    margin-top: 100px;
+    z-index: 1;
+
+}
+
+.search__input {
+    border: none;
+    border-style: solid;
+    border-width: 1px;
+    outline: none;
+    width: 50%;
+    border-radius: 10px;
+    padding-left: 16px;
+    font-size: 15px;
+    font-weight: 10;
+}
+
+.search__button {
+    border: none;
+    background-color: transparent;
+}
+
+.fa-magnifying-glass-minus {
+    border: none;
+    margin: -8px 0px;
+    font-size: 25px;
+}
+
+/* end search */
+
+/* star cart */
+
+.header__menu--list-step1--cart:hover #cart {
+    display: block;
+}
+
+#cart {
+    display: none;
+}
+
+.cart__list {
+    background-color: rgba(11, 11, 11, 0.5);
+    margin-left: -194px;
+    width: 300px;
+    height: 200px;
+    margin-top: 30px;
+    animation: hienthi1 ease-in-out 0.5s;
+    transform-origin: 80% top;
+
+}
+
+.cart__list::before {
+    content: "";
+    border: 30px solid;
+    border-color: transparent transparent rgba(11, 11, 11, 0.5) transparent;
+    float: right;
+    margin-top: -60px;
+    margin-right: 10px;
+}
+
+.cart__header {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 0px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+.cart__content {
+    text-align: center;
+    padding: 1px 0px 60px 0px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
+}
+
+.cart__content:hover {
+    color: orangered;
+}
+
+.cart__footer {
+    text-align: center;
+    padding: 5px 0px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
+}
+
+.cart__footer:hover {
+    cursor: pointer;
+    color: orangered;
+}
+
+/* end cart */
+
+/* star  slide banner */
+
+
+#slideshow {
+    overflow: hidden;
+    height: 600px;
+    width: 100%;
+    margin: 30px auto;
+}
+
+.slide-wrapper {
+
+    width: 2912px;
+    animation: slide 20s ease infinite;
+}
+
+.slide {
+    float: left;
+    width: 728px;
+}
+
+
+
+/* end slide banner */
+
+
+/* star san pham */
+
+.sanpham__list {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sanpham__list-text h1 {
+    background-color: rgba(123, 117, 117, 0.5);
+    margin-left: 115px;
+    margin-top: 115px;
+    color: #fff;
+    width: 160px;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    border-radius: 2px;
+    cursor: pointer;
+    animation: testTT alternate-reverse 1s;
+}
+
+.sanpham__list-text h1:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+
+}
+
+.sanpham__list-text {
+    display: none;
+}
+
+
+
+.sanpham__list-items--step1 {
+    background-image: url(https://ohay.vn/blog/wp-content/uploads/2020/01/lyn1-min.jpg);
+    background-size: 100% 100%;
+    width: 420px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.sanpham__list-items--step3 {
+
+    background-image: url(https://danangaz.com/wp-content/uploads/2018/10/shop-quan-ao-nu-da-nang-1.jpg);
+    background-size: 100% 100%;
+    width: 420px;
+    height: 300px;
+}
+
+.sanpham__list-items--step2 {
+
+    background-image: url(https://danangaz.com/wp-content/uploads/2018/10/shop-quan-ao-nu-da-nang-4-min.jpg);
+    background-size: 100%;
+    width: 420px;
+    height: 300px;
+}
+
+
+
+
+.sanpham__list-items:hover .sanpham__list-text {
+    display: block;
+}
+
+/* end sản phẩm */
+
+/* star title */
+.title {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: -70px;
+}
+
+.title1 {
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: -20px;
+}
+
+/* end title */
+
+/* star content */
+
+
+.content__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 250px;
+    flex-wrap: wrap;
+}
+
+/* nữ */
+
+.content__list-items--step {
+    background-image: url(https://vietyouth.vn/wp-content/uploads/2022/03/https-lh3-googleusercontent-com-uxtttzm2dbtb-n6.jpeg);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+    
+}
+
+.sanpham__list-items{
+    margin-top: 50px;
+}
+
+
+.content__list-items--step:hover .content__list-text h1 {
+    display: block;
+}
+
+.content__list-items--step1 {
+    background-image: url(https://toplist.vn/images/800px/fm-style-saigon-600122.jpg);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+}
+
+
+
+.content__list-items--step1:hover .content__list-text h1 {
+    display: block;
+}
+
+.content__list-items--step2 {
+    background-image: url(https://img.alicdn.com/imgextra/i1/3600074510/TB2fN5Hwcj_B1NjSZFHXXaDWpXa_!!3600074510.jpg_400x400q90.jpg);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+}
+
+
+
+.content__list-items--step2:hover .content__list-text h1 {
+    display: block;
+
+}
+
+
+
+.content__list-items--step3 {
+    background-image: url(https://cf.shopee.vn/file/376903cbed48f9165ff0651ec76cba93);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+}
+
+.content__list-items--step3:hover .content__list-text h1 {
+    display: block;
+}
+
+.content__list-items--step4 {
+    background-image: url(https://cf.shopee.vn/file/5734b8d84d5b3d30e4ed344599a4c786);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+}
+
+.content__list-items--step4:hover .content__list-text h1 {
+    display: block;
+}
+
+.content__list-items--step5 {
+    background-image: url(https://cf.shopee.vn/file/8a05b0be476a56ea3a9bcd9288e66fbb);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+}
+
+.content__list-items--step5:hover .content__list-text h1 {
+    display: block;
+}
+
+.content__list-items--step6 {
+    background-image: url(https://cf.shopee.vn/file/5fe52ac5d0ff214e01bbbea250bd0f3b);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+}
+
+.content__list-items--step6:hover .content__list-text h1 {
+    display: block;
+}
+
+.content__list-items--step7 {
+    background-image: url(https://cf.shopee.vn/file/ef6f5e223b9e4a39b255ad8181f17ff5);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+}
+
+.content__list-items--step7:hover .content__list-text h1 {
+    display: block;
+}
+
+.content__list-items--step8 {
+    background-image: url(https://cf.shopee.vn/file/294363c0353b7c33e41372d47ee521b0);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+}
+
+.content__list-items--step8:hover .content__list-text h1 {
+    display: block;
+}
+
+.content__list-items--step9 {
+    background-image: url(https://cf.shopee.vn/file/707014b6a6c3882fdaa45dbdde8c59cb_tn);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+}
+
+.content__list-items--step9:hover .content__list-text h1 {
+    display: block;
+}
+
+.content__list-items--step10 {
+    background-image: url(https://cf.shopee.vn/file/be1dbf86259d1d0965f28f713c0f7177);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+}
+
+.content__list-items--step10:hover .content__list-text h1 {
+    display: block;
+}
+
+.content__list-items--step11 {
+    background-image: url(https://i.bloganchoi.com/bloganchoi.com/wp-content/uploads/2019/07/mau-ao-so-mi-trang-di-hoc-41.jpg?fit=550%2C20000&quality=95&ssl=1);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+}
+
+.content__list-items--step11:hover .content__list-text h1 {
+    display: block;
+}
+
+/* nam */
+
+.content__list-items--step12 {
+    background-image: url(https://cf.shopee.vn/file/6bf83432c5f66e970d0a0d80921e5514);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+}
+
+.content__list-items--step12:hover .content__list-text h1 {
+    display: block;
+}
+
+.content__list-items--step13 {
+    background-image: url(https://www.elleman.vn/wp-content/uploads/2020/03/17/173341/2_ao-polo-dep_zara_elle-man_0320.jpg);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+}
+
+.content__list-items--step13:hover .content__list-text h1 {
+    display: block;
+}
+
+.content__list-items--step14 {
+    background-image: url(https://bizweb.dktcdn.net/thumb/1024x1024/100/399/392/products/2-1.jpg);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+}
+
+.content__list-items--step14:hover .content__list-text h1 {
+    display: block;
+}
+
+.content__list-items--step15 {
+    background-image: url(https://www.dongphucthienphuoc.vn/wp-content/uploads/2019/11/ao-polo-la-j.jpg);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+}
+
+.content__list-items--step15:hover .content__list-text h1 {
+    display: block;
+}
+
+.content__list-items--step16 {
+    background-image: url(https://vn-live-01.slatic.net/original/fae9575460c431a62f6aa015e75da669.jpg);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+}
+
+.content__list-items--step16:hover .content__list-text h1 {
+    display: block;
+}
+
+.content__list-items--step17 {
+    background-image: url(https://salt.tikicdn.com/cache/400x400/ts/product/88/5e/53/3c9d6523114f83e25532931eb3a5fa5f.jpg);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+}
+
+.content__list-items--step17:hover .content__list-text h1 {
+    display: block;
+}
+
+.content__list-items--step18 {
+    background-image: url(https://thoitrangthanhnam.vn/wp-content/uploads/2022/03/5_kieu_ao_so_mi_phai_manh_khong_the_thieu.jpg);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+}
+
+.content__list-items--step18:hover .content__list-text h1 {
+    display: block;
+}
+
+.content__list-items--step19 {
+    background-image: url(https://inhat.vn/wp-content/uploads/2021/03/shop-ban-ao-thun-unisex-9.png);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+}
+
+.content__list-items--step19:hover .content__list-text h1 {
+    display: block;
+}
+
+.content__list-items--step20 {
+    background-image: url(https://media3.scdn.vn/img3/2019/10_26/A2M3ox.jpg);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+    margin-bottom: 100px;
+
+}
+
+.content__list-items--step20:hover .content__list-text h1 {
+    display: block;
+}
+
+
+
+.content__list-items--step21 {
+    background-image: url(https://cf.shopee.vn/file/d19d8368499bc9fc1f002387d73dab48);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+}
+
+.content__list-items--step21:hover .content__list-text h1 {
+    display: block;
+}
+
+.content__list-items--step22 {
+    background-image: url(https://vn-live-01.slatic.net/p/6b3e4b6a6b6cbc4423be7ab6280d51e3.jpg);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+
+}
+
+.content__list-items--step22:hover .content__list-text h1 {
+    display: block;
+}
+
+
+.content__list-items--step23 {
+    background-image: url(https://cf.shopee.vn/file/c5a44a52b78570d3254b1374e9f75e75);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+    margin-bottom: 100px;
+}
+
+.content__list-items--step23:hover .content__list-text h1 {
+    display: block;
+}
+
+
+
+.content__list-items{
+    margin-top: 100px;
+}
+
+.content__list-items1{
+    margin-top: 100px;
+}
+
+.content__list-items:hover {
+    box-shadow: 1px 0.6px 2px 2px rgba(213, 159, 159, 0.9);
+    animation: opacti ease-in 2s;
+}
+
+.content__list-items1:hover {
+    box-shadow: 1px 0.6px 2px 2px rgba(89, 80, 80, 0.9);
+}
+
+.content__list-items-text1 {
+    margin-top: 320px;
+    font-size: 17px;
+
+}
+
+.content__list-items-text {
+    margin-top: -13px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.content__list-items-text:hover {
+    color: orangered;
+
+}
+
+.content__list-items-text span {
+    margin-left: 10px;
+    color: #899;
+    text-decoration: line-through;
+}
+
+.content__list-text h1 {
+    background-color: rgba(234, 230, 230, 0.4);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 10;
+    color: #fff;
+    padding: 10px;
+    width: 200px;
+    margin-left: 15px;
+    border-radius: 8px;
+    display: none;
+    cursor: pointer;
+    animation: testTTT both 1s;
+    margin-bottom: -304px;
+
+    font-family: tahoma;
+}
+
+.content__list-text h1:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*  end */
+
+/* star footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+.footer__list-itemss h1 {
+    letter-spacing: 3px;
+
+}
+
+.footer__list-items {
+    line-height: 30px;
+}
+
+.footer__list-items:hover {
+    color: orangered;
+}
+
+.footer__list-items11 h1 {
+    letter-spacing: 1px;
+
+}
+
+.footer__list-items1 {
+    line-height: 30px;
+}
+
+.footer__list-items1:hover {
+    color: orangered;
+}
+
+.footer__list-items22 h1 {
+    letter-spacing: 3px;
+    cursor: pointer;
+
+}
+
+.footer__list-items2 {
+    line-height: 30px;
+    cursor: auto;
+}
+
+.footer__list-items2 span:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+.link {
+    margin: 20px 0px;
+}
+
+.link__list {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 15px;
+
+}
+
+.link__list:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    animation: opacti ease-in-out 0.5s;
+
+}
+
+.footer__list-items33 h1 {
+    letter-spacing: 3px;
+
+}
+
+.footer__list-items3 {
+    line-height: 30px;
+}
+
+.footer__list-items3 input {
+    border: none;
+    border-style: solid;
+    border-width: 0.1px;
+    width: 250px;
+    padding: 0px 5px;
+    height: 40px;
+    outline: none;
+}
+
+.footer__list-items3 button {
+    margin: 10px 0px;
+    background-color: rgba(67, 65, 65, 0.1);
+    border: none;
+    height: 30px;
+}
+
+.footer__list-items3 button:hover {
+    color: #fff;
+    background-color: #000;
+}

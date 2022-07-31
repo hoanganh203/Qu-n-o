@@ -32,7 +32,7 @@ function login(e){
     else if(usename == dulieu.usename && password == dulieu.password)
     {
      alert("Đăng nhập thành công")
-    window.open("http://127.0.0.1:5500/index.html")
+    window.open("/index.html")
     }
 
     else{

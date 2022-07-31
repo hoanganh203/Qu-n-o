@@ -111,7 +111,7 @@ body {
 
 @keyframes slide1 {
     100% {
-        margin-left: -1420px;
+        margin-left: -1239px;
     }
 
     10% {
@@ -449,3 +449,30 @@ body {
     }
 
    }
+
+
+@keyframes lonlen{
+    from {
+        transform: scale(0);
+
+    }
+
+    to {
+        transform: scale(1);
+
+    }
+
+}
+@keyframes lonlen2{
+    
+    from {
+        transform: scale(1);
+        
+    }
+    
+    to {
+        transform: scale(0);
+
+    }
+}
+

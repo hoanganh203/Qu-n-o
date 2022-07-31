@@ -5,9 +5,15 @@
     margin: 50px 30px 0px;
 
 }
+.contentGT1{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 30px 0px;
+
+}
 
 .contentGT__img--step1{
-    background-image: url(https://nhiepanhquangcao.com/wp-content/uploads/2021/01/xu-huong-chup-quan-ao.jpg);
+    background-image: url(https://scontent.fhan2-4.fna.fbcdn.net/v/t1.6435-9/118653207_3556673461045227_5987783612366235090_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=OKkGAVvgwE4AX8fufyO&_nc_ht=scontent.fhan2-4.fna&oh=00_AT_MaotTNBa4Is1zYw_Bbg0uegfnQZqil1cfXPrd1eJzSA&oe=62F964FA);
     width: 450px;
     height: 300px;
     background-size: 100% 100%;
@@ -16,7 +22,7 @@
 }
 
 .contentGT__img--step2{
-    background-image: url(https://nhiepanhquangcao.com/wp-content/uploads/2021/01/xu-huong-chup-quan-ao.jpg);
+    background-image: url(https://scontent.fhan2-4.fna.fbcdn.net/v/t1.6435-9/68549039_2120435051582247_8916578717560471552_n.png?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=-1vSZkM28PwAX9DEuHL&_nc_ht=scontent.fhan2-4.fna&oh=00_AT-39UWu_IqcwNr55jzNXsaRC4digvqNCjxJK0Vp3ssVhQ&oe=62F923D6);
     width: 450px;
     height: 300px;
     background-size: 100% 100%;
@@ -24,14 +30,39 @@
 }
 
 .contentGT__img--step3{
-    background-image: url(https://nhiepanhquangcao.com/wp-content/uploads/2021/01/xu-huong-chup-quan-ao.jpg);
+    background-image: url(https://scontent.fhan2-2.fna.fbcdn.net/v/t1.18169-9/13925258_569920456524174_2730664631753389580_n.png?_nc_cat=1&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=LJC6chXUfzcAX-uIvxe&_nc_ht=scontent.fhan2-2.fna&oh=00_AT80ZS4S16fiixyiTB1WJlriSjBxd3O9kss4r15G1nij0w&oe=62F9D1BE);
     width: 450px;
     height: 300px;
     background-size: 100% 100%;
 
 }
 
-.titleGT{
+.contentGT__img--step4{
+    background-image: url(https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1582047004/602204_92TCG_8563_002_074_0000_Light-Gucci-Horsebit-1955-shoulder-bag.jpg);
+    width: 450px;
+    height: 300px;
+    background-size: 100% 100%;
+    
+
+}
+
+.contentGT__img--step5{
+    background-image: url(https://equilibrium.gucci.com/wp-content/uploads/2020/04/GucciChangemakers.jpg);
+    width: 450px;
+    height: 300px;
+    background-size: 100% 100%;
+
+}
+
+.contentGT__img--step6{
+    background-image: url(https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1582047905/602204_1DB0G_2361_002_074_0000_Light-Gucci-Horsebit-1955-shoulder-bag.jpg);
+    width: 450px;
+    height: 300px;
+    background-size: 100% 100%;
+
+}
+
+.tieudeGT{
     margin-top: 150px;
     text-align: center;
 }
@@ -43,12 +74,15 @@
 .contentGT__items:hover .contentGT__text{
     display: block;
     animation: grow both 1s;
+    cursor: pointer;
 
 }
 
 .contentGT__items:hover .contentGT__text1{
     display: block;
     animation: grow1 alternate-reverse 0.9s;
+    cursor: pointer;
+
 }
 
 .contentGT__items:hover .contentGT__text--items{
@@ -60,7 +94,7 @@ animation: test both 1s;
     display: none;
    margin: 0px 30px 0px 20px;
    text-align: left;
-   opacity: 0.9;
+    opacity: 1;
    width: 400px;
    color: #fff;
    letter-spacing: 1px;
@@ -88,6 +122,62 @@ animation: test both 1s;
     display: none;
     margin-left: 225px;
     height: 300px;
+}
+
+
+/* end content */
+
+
+/* star title */
+
+.titleGT-list1{
+    margin: 0;
+    padding: 0;
+}
+
+.titleGT-list1 h1{
+    font-size: 40px;
+    font-weight: 500;
+    margin: 90px 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.titleGT-list1 p{
+    text-align: center;
+    line-height: 23px;
+    font-size: 17px;
+}
+
+.titleGT-list1--img{
+    background-image: url(https://fridayshopping.vn/wp-content/uploads/2021/10/top-30-thuong-hieu-thoi-trang-noi-tieng-noi-nhat-the-gioi-1.jpg);
+    background-size: 100% 100%;
+    width: 900px;
+    height: 500px;
+    margin: 30px 310px;
+}
+
+.titleGT-list1--img1{
+    background-image: url(https://fridayshopping.vn/wp-content/uploads/2021/10/top-30-thuong-hieu-thoi-trang-noi-tieng-noi-nhat-the-gioi-2.jpg);
+    background-size: 100% 100%;
+    width: 900px;
+    height: 500px;
+    margin: 30px 310px;
+}
+
+.titleGT-list1--img:hover{
+   opacity: 0.8;
+
+}
+
+.titleGT-list1--img1:hover{
+    opacity: 0.8;
+ 
+ }
+
+.titleGT-list1 h2{
+    text-align: center;
+    font-style: italic;
+    font-weight: 200;
 }
 
 

@@ -32,30 +32,2000 @@
 .content__list--cuahang{
     display: flex;
     justify-content: space-between;
-    margin:120px 70px 0px 360px;
+    margin:70px 70px 0px 360px;
 
 }
 
 .title1{
     text-align: center;
-    margin: 120px 0px -60px 240px;
+    margin: 120px 0px -140px 240px;
     font-weight: 100;
     font-family: 'Slabo 27px', serif;
 }
 
 .title3{
     text-align: center;
-    margin: 180px 0px 30px 240px;
+    margin: 10px 0px -100px 240px;
 }
 
+.title2{
+    text-align: center;
+    margin: 140px 0px -100px 240px;
+}
 .content1{
-    padding-bottom: 300px;
+    padding-bottom: 30px;
 }
 
 .footer1{
     display: flex;
     justify-content: space-between;
-    margin: 50px 10px 0px 330px;
+    margin: 0px 10px 0px 330px;
     padding-bottom: 20px;
     cursor: pointer;
 }
+
+
+.modal__content{
+    display: flex;
+}
+
+
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+   }
+
+.fa-circle-xmark{
+    float: right;
+    cursor: pointer;
+   
+}
+
+   .modal__body{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+   }
+   
+.input:checked ~ .content__list-text .modal {
+    display: block;
+    animation: opacti ease-in 1s;
+
+ }
+ .input:checked ~ .modal__body{
+     display: block;
+     margin: -140px 0px 0px -10px;
+    animation: lonlen both 1.5s;
+
+ }
+  .modal__content{
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    height: 5000px;
+  }
+
+
+ .modal__content--img{
+    background-image: url(https://vietyouth.vn/wp-content/uploads/2022/03/https-lh3-googleusercontent-com-uxtttzm2dbtb-n6.jpeg);
+    background-size: 100% 100%;
+    width:250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+    margin: 10px 10px 0px 45px;
+    cursor: pointer;
+ }
+
+ .modal__content--tile h1{
+    margin-top: 10px;
+    margin-left: 40px;
+ }
+
+ .modal__content--gia {
+    margin-top: -13px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 40px;
+
+}
+
+
+.modal__content--gia span {
+    margin-left: 10px;
+    color: #899;
+    text-decoration: line-through;
+}
+
+.modal__content--gia:hover {
+    color: orangered;
+
+}
+
+.modal__content--thongtin{
+    text-align: center;
+    margin-left: 90px;
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+
+.modal__content--step1{
+    margin:-5px 0px;
+}
+
+.modal__content--step2{
+    margin:-5px 0px;
+}
+
+.modal__content--step3{
+    margin:-5px 0px;
+    
+}
+
+.modal__content--step1--span:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+.modal__content--step4{
+    margin: 89px 0px 0px -200px;
+    font-size: 18px;
+    border-bottom: solid #333 1px;
+    width: 135px;
+}
+
+.modal__content--step4--input{
+    width: 240px;
+    margin-left: -235px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.modal__content--step4--input .check{
+    margin: 0px 20px 15px 3px;
+    cursor: pointer;
+
+}
+
+.modal__content--step5{
+    margin: -185px 0px 0px 320px;
+    width: 135px;
+    padding: 0px 10px 5px 10px;
+    text-align: center;
+
+}
+.modal__content--step5:hover{
+    box-shadow: 1px 1px 5px 1px #333;
+}
+
+.modal__content--step5--button{
+    margin: -20px 17px 0px 20px;
+    border: none;
+    background: none;
+    padding: 5px;
+    cursor: pointer;
+    
+
+}
+
+.modal__content--step6{
+    text-align: center;
+    margin: -80px 0px 0px -150px;
+}
+
+.modal__content--step6 input{
+    cursor: pointer;
+}
+
+.modal__content--step7{
+    margin: 0px 0px -10px 45px;
+}
+
+.modal__content--step7 p{
+    margin-left: 14px;
+}
+
+.modal__content--step7 input{
+    margin: -10px 80px 0px 0px;
+    height: 60px;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.modal__content--step7 button{
+    padding: 15px 25px;
+    color: #333;
+    background-color: #fff;
+    border-style: solid #333 0.5px;
+    border-radius: 4px;
+
+}
+
+.modal__content--step7 button:hover{
+    color: #fff;
+    background-color: #333;
+    animation: opacti ease-in 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+
+
+
+.modal__content--step5--button:hover{
+    box-shadow: 1px 1px 5px 1px #333;
+
+
+}
+
+
+
+ .modal1{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+
+   .modal__body1{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+    border-radius: 10px;
+
+      }
+    
+   .input1:checked ~ .content__list-text .modal1 {
+    display: block;
+    animation: opacti ease-in 1s;
+
+ }
+
+ .input1:checked ~ .modal__body1{
+     display: block;
+     margin: -140px 0px 0px -280px;
+    animation: lonlen both 1.5s;
+
+ }
+
+ .modal__content{
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    height: 5000px;
+  }
+
+
+ .modal__content--img1{
+    background-image: url(https://toplist.vn/images/800px/fm-style-saigon-600122.jpg);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+    margin: 10px 10px 0px 45px;
+    cursor: pointer;
+ }
+
+ .modal__content--tile h1{
+    margin-top: 10px;
+    margin-left: 40px;
+ }
+
+ .modal__content--gia {
+    margin-top: -13px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 40px;
+
+}
+
+
+.modal__content--gia span {
+    margin-left: 10px;
+    color: #899;
+    text-decoration: line-through;
+}
+
+.modal__content--gia:hover {
+    color: orangered;
+
+}
+
+.modal__content--thongtin{
+    text-align: center;
+    margin-left: 90px;
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+
+.modal__content--step1{
+    margin:-5px 0px;
+}
+
+.modal__content--step2{
+    margin:-5px 0px;
+}
+
+.modal__content--step3{
+    margin:-5px 0px;
+    
+}
+
+.modal__content--step1--span:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+.modal__content--step4{
+    margin: 89px 0px 0px -200px;
+    font-size: 18px;
+    border-bottom: solid #333 1px;
+    width: 135px;
+}
+
+.modal__content--step4--input{
+    width: 240px;
+    margin-left: -235px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.modal__content--step4--input .check{
+    margin: 0px 20px 15px 3px;
+    cursor: pointer;
+
+}
+
+.modal__content--step5{
+    margin: -185px 0px 0px 320px;
+    width: 135px;
+    padding: 0px 10px 5px 10px;
+    text-align: center;
+
+}
+.modal__content--step5:hover{
+    box-shadow: 1px 1px 5px 1px #333;
+}
+
+.modal__content--step5--button{
+    margin: -20px 17px 0px 20px;
+    border: none;
+    background: none;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.modal__content--step6{
+    text-align: center;
+    margin: -80px 0px 0px -150px;
+}
+
+.modal__content--step6 input{
+    cursor: pointer;
+}
+
+.modal__content--step7{
+    margin: 0px 0px -10px 45px;
+}
+
+.modal__content--step7 p{
+    margin-left: 14px;
+}
+
+.modal__content--step7 input{
+    margin: -10px 80px 0px 0px;
+    height: 60px;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.modal__content--step7 button{
+    padding: 15px 25px;
+    color: #333;
+    background-color: #fff;
+    border-style: solid #333 0.5px;
+}
+
+.modal__content--step7 button:hover{
+    color: #fff;
+    background-color: #333;
+    animation: opacti ease-in 0.4s;
+    cursor: pointer;
+
+}
+
+
+
+
+
+.modal__content--step5--button:hover{
+    box-shadow: 1px 1px 5px 1px #333;
+
+
+}
+
+ .modal2{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+
+   .modal__body2{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    border-radius: 10px;
+
+    display: none;
+   }
+    
+   .input2:checked ~ .content__list-text .modal2 {
+    display: block;
+    animation: opacti ease-in 1s;
+
+ }
+
+ .input2:checked ~ .modal__body2{
+     display: block;
+     margin: -140px 0px 0px -570px;
+    animation: lonlen both 1.5s;
+
+ }
+
+ .modal__content--img2{
+    background-image: url(https://img.alicdn.com/imgextra/i1/3600074510/TB2fN5Hwcj_B1NjSZFHXXaDWpXa_!!3600074510.jpg_400x400q90.jpg);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+    margin: 10px 10px 0px 45px;
+    cursor: pointer;
+ }
+
+ .modal__content--tile h1{
+    margin-top: 10px;
+    margin-left: 40px;
+ }
+
+ .modal__content--gia {
+    margin-top: -13px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 40px;
+
+}
+
+
+.modal__content--gia span {
+    margin-left: 10px;
+    color: #899;
+    text-decoration: line-through;
+}
+
+.modal__content--gia:hover {
+    color: orangered;
+
+}
+
+.modal__content--thongtin{
+    text-align: center;
+    margin-left: 90px;
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+
+.modal__content--step1{
+    margin:-5px 0px;
+}
+
+.modal__content--step2{
+    margin:-5px 0px;
+}
+
+.modal__content--step3{
+    margin:-5px 0px;
+    
+}
+
+.modal__content--step1--span:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+.modal__content--step4{
+    margin: 89px 0px 0px -200px;
+    font-size: 18px;
+    border-bottom: solid #333 1px;
+    width: 135px;
+}
+
+.modal__content--step4--input{
+    width: 240px;
+    margin-left: -235px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.modal__content--step4--input .check{
+    margin: 0px 20px 15px 3px;
+    cursor: pointer;
+
+}
+
+.modal__content--step5{
+    margin: -185px 0px 0px 320px;
+    width: 135px;
+    padding: 0px 10px 5px 10px;
+    text-align: center;
+
+}
+.modal__content--step5:hover{
+    box-shadow: 1px 1px 5px 1px #333;
+}
+
+.modal__content--step5--button{
+    margin: -20px 17px 0px 20px;
+    border: none;
+    background: none;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.modal__content--step6{
+    text-align: center;
+    margin: -80px 0px 0px -150px;
+}
+
+.modal__content--step6 input{
+    cursor: pointer;
+}
+
+.modal__content--step7{
+    margin: 0px 0px -10px 45px;
+}
+
+.modal__content--step7 p{
+    margin-left: 14px;
+}
+
+.modal__content--step7 input{
+    margin: -10px 80px 0px 0px;
+    height: 60px;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.modal__content--step7 button{
+    padding: 15px 25px;
+    color: #333;
+    background-color: #fff;
+    border-style: solid #333 0.5px;
+}
+
+.modal__content--step7 button:hover{
+    color: #fff;
+    background-color: #333;
+    animation: opacti ease-in 0.4s;
+    cursor: pointer;
+
+}
+
+
+
+
+
+.modal__content--step5--button:hover{
+    box-shadow: 1px 1px 5px 1px #333;
+
+
+}
+
+
+.modal3{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+   .modal__body3{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+    border-radius: 10px;
+   }
+   
+.input3:checked ~ .content__list-text .modal3 {
+    display: block;
+    animation: opacti ease-in 1.5s;
+
+ }
+ .input3:checked ~ .modal__body3{
+     display: block;
+     margin: -140px 0px 0px -850px;
+    animation: lonlen both 1.5s;
+
+ }
+
+ .modal__content--img3{
+    background-image: url(https://cf.shopee.vn/file/376903cbed48f9165ff0651ec76cba93);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 300px;
+    animation: opacti ease-in 2s;
+    margin: 10px 10px 0px 45px;
+    cursor: pointer;
+ }
+
+ .modal__content--tile h1{
+    margin-top: 10px;
+    margin-left: 40px;
+ }
+
+ .modal__content--gia {
+    margin-top: -13px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 40px;
+
+}
+
+
+.modal__content--gia span {
+    margin-left: 10px;
+    color: #899;
+    text-decoration: line-through;
+}
+
+.modal__content--gia:hover {
+    color: orangered;
+
+}
+
+.modal__content--thongtin{
+    text-align: center;
+    margin-left: 90px;
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+
+.modal__content--step1{
+    margin:-5px 0px;
+}
+
+.modal__content--step2{
+    margin:-5px 0px;
+}
+
+.modal__content--step3{
+    margin:-5px 0px;
+    
+}
+
+.modal__content--step1--span:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+.modal__content--step4{
+    margin: 89px 0px 0px -200px;
+    font-size: 18px;
+    border-bottom: solid #333 1px;
+    width: 135px;
+}
+
+.modal__content--step4--input{
+    width: 240px;
+    margin-left: -235px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.modal__content--step4--input .check{
+    margin: 0px 20px 15px 3px;
+    cursor: pointer;
+
+}
+
+.modal__content--step5{
+    margin: -185px 0px 0px 320px;
+    width: 135px;
+    padding: 0px 10px 5px 10px;
+    text-align: center;
+
+}
+.modal__content--step5:hover{
+    box-shadow: 1px 1px 5px 1px #333;
+}
+
+.modal__content--step5--button{
+    margin: -20px 17px 0px 20px;
+    border: none;
+    background: none;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.modal__content--step6{
+    text-align: center;
+    margin: -80px 0px 0px -150px;
+}
+
+.modal__content--step6 input{
+    cursor: pointer;
+}
+
+.modal__content--step7{
+    margin: 0px 0px -10px 45px;
+}
+
+.modal__content--step7 p{
+    margin-left: 14px;
+}
+
+.modal__content--step7 input{
+    margin: -10px 80px 0px 0px;
+    height: 60px;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.modal__content--step7 button{
+    padding: 15px 25px;
+    color: #333;
+    background-color: #fff;
+    border-style: solid #333 0.5px;
+}
+
+.modal__content--step7 button:hover{
+    color: #fff;
+    background-color: #333;
+    animation: opacti ease-in 0.4s;
+    cursor: pointer;
+
+}
+
+
+
+
+
+.modal__content--step5--button:hover{
+    box-shadow: 1px 1px 5px 1px #333;
+
+
+}
+
+
+
+ .modal4{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+   .modal__body4{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+   
+.input4:checked ~ .content__list-text .modal4 {
+    display: block;
+ }
+ .input4:checked ~ .modal__body4{
+     display: block;
+     margin:-616px 0px 0px -10px;
+ }
+
+ .modal5{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay5{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+
+   .modal__body5{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+    
+   .input5:checked ~ .content__list-text .modal5 {
+    display: block;
+ }
+
+ .input5:checked ~ .modal__body5{
+     display: block;
+     margin: -616px 0px 0px -280px;
+ }
+
+ .modal6{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay6{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+
+   .modal__body6{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+    
+   .input6:checked ~ .content__list-text .modal6 {
+    display: block;
+ }
+
+ .input6:checked ~ .modal__body6{
+     display: block;
+     margin:-616px 0px 0px -570px;
+ }
+
+
+.modal7{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay7{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+   .modal__body7{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+   
+.input7:checked ~ .content__list-text .modal7 {
+    display: block;
+ }
+ .input7:checked ~ .modal__body7{
+     display: block;
+     margin:-616px 0px 0px -850px;
+ }
+
+ .modal8{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay8{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+
+
+   .modal__body8{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+   
+.input8:checked ~ .content__list-text .modal8 {
+    display: block;
+ }
+ .input8:checked ~ .modal__body8{
+     display: block;
+     margin: -1085px 0px 0px -10px;
+ }
+
+ .modal9{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay9{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+
+   .modal__body9{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+    
+   .input9:checked ~ .content__list-text .modal9 {
+    display: block;
+ }
+
+ .input9:checked ~ .modal__body9{
+     display: block;
+     margin: -1085px 0px 0px -280px;
+ }
+
+ .modal10{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay10{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+
+   .modal__body10{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+    
+   .input10:checked ~ .content__list-text .modal10 {
+    display: block;
+ }
+
+ .input10:checked ~ .modal__body10{
+     display: block;
+     margin: -1085px 0px 0px -570px;
+ }
+
+
+.modal11{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay11{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+   .modal__body11{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+   
+.input11:checked ~ .content__list-text .modal11 {
+    display: block;
+ }
+ .input11:checked ~ .modal__body11{
+     display: block;
+     margin: -1085px 0px 0px -850px;
+ }
+
+ .modal12{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay12{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+   .modal__body12{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+   
+.input12:checked ~ .content__list-text .modal12 {
+    display: block;
+ }
+ .input12:checked ~ .modal__body12{
+     display: block;
+     margin: -1670px 0px 0px -10px;
+ }
+
+ .modal13{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay13{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+
+   .modal__body13{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+    
+   .input13:checked ~ .content__list-text .modal13 {
+    display: block;
+ }
+
+ .input13:checked ~ .modal__body13{
+     display: block;
+     margin: -1670px 0px 0px -280px;
+ }
+
+ .modal14{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay14{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+
+   .modal__body14{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+    
+   .input14:checked ~ .content__list-text .modal14 {
+    display: block;
+ }
+
+ .input14:checked ~ .modal__body14{
+     display: block;
+     margin: -1670px 0px 0px -570px;
+ }
+
+
+.modal15{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay15{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+   .modal__body15{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+   
+.input15:checked ~ .content__list-text .modal15{
+    display: block;
+ }
+ .input15:checked ~ .modal__body15{
+     display: block;
+     margin: -1670px 0px 0px -850px;
+ }
+
+
+ .modal16{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay16{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+   .modal__body16{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+   
+.input16:checked ~ .content__list-text .modal16 {
+    display: block;
+ }
+ .input16:checked ~ .modal__body16{
+     display: block;
+     margin: -2140px 0px 0px -10px;
+ }
+
+ .modal17{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay17{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+
+   .modal__body17{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+    
+   .input17:checked ~ .content__list-text .modal17 {
+    display: block;
+ }
+
+ .input17:checked ~ .modal__body17{
+     display: block;
+     margin: -2140px 0px 0px -280px;
+ }
+
+ .modal18{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay18{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+
+   .modal__body18{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+    
+   .input18:checked ~ .content__list-text .modal18 {
+    display: block;
+ }
+
+ .input18:checked ~ .modal__body18{
+     display: block;
+     margin: -2140px 0px 0px -570px;
+ }
+
+
+.modal19{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay19{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+   .modal__body19{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+   
+.input19:checked ~ .content__list-text .modal19 {
+    display: block;
+ }
+ .input19:checked ~ .modal__body19{
+     display: block;
+     margin: -2140px 0px 0px -850px;
+ }
+
+ .modal20{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay20{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+   .modal__body20{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+   
+.input20:checked ~ .content__list-text .modal20 {
+    display: block;
+ }
+ .input20:checked ~ .modal__body20{
+     display: block;
+     margin: -2615px 0px 0px -10px;
+ }
+
+ .modal21{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay21{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+
+   .modal__body21{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+    
+   .input21:checked ~ .content__list-text .modal21 {
+    display: block;
+ }
+
+ .input21:checked ~ .modal__body21{
+     display: block;
+     margin: -2615px 0px 0px -280px;
+ }
+
+ .modal22{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay22{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+
+   .modal__body22{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+    
+   .input22:checked ~ .content__list-text .modal22 {
+    display: block;
+ }
+
+ .input22:checked ~ .modal__body22{
+     display: block;
+     margin: -2615px 0px 0px -570px;
+ }
+
+
+.modal23{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay23{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+   .modal__body23{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+   
+.input23:checked ~ .content__list-text .modal23 {
+    display: block;
+ }
+ .input23:checked ~ .modal__body23{
+     display: block;
+     margin: -2615px 0px 0px -850px;
+ }
+
+
+ .modal24{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay24{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+   .modal__body24{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+   
+.input24:checked ~ .content__list-text .modal24 {
+    display: block;
+ }
+ .input24:checked ~ .modal__body24{
+     display: block;
+     margin: -3180px 0px 0px -10px;
+ }
+
+ .modal25{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay25{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+
+   .modal__body25{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+    
+   .input25:checked ~ .content__list-text .modal25 {
+    display: block;
+ }
+
+ .input25:checked ~ .modal__body25{
+     display: block;
+     margin: -3180px 0px 0px -280px;
+ }
+
+ .modal26{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay26{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+
+   .modal__body26{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+    
+   .input26:checked ~ .content__list-text .modal26 {
+    display: block;
+ }
+
+ .input26:checked ~ .modal__body26{
+     display: block;
+     margin: -3180px 0px 0px -570px;
+ }
+
+
+.modal27{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay27{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+   .modal__body27{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+   
+.input27:checked ~ .content__list-text .modal27 {
+    display: block;
+ }
+ .input27:checked ~ .modal__body27{
+     display: block;
+     margin: -3180px 0px 0px -850px;
+ }
+
+ .modal28{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay28{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+   .modal__body28{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+   
+.input28:checked ~ .content__list-text .modal28 {
+    display: block;
+ }
+ .input28:checked ~ .modal__body28{
+     display: block;
+     margin: -3650px 0px 0px -10px;
+ }
+
+ .modal29{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay29{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+
+   .modal__body29{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+    
+   .input29:checked ~ .content__list-text .modal29 {
+    display: block;
+ }
+
+ .input29:checked ~ .modal__body29{
+     display: block;
+     margin: -3650px 0px 0px -280px;
+ }
+
+ .modal30{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay30{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+
+   .modal__body30{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+    
+   .input30:checked ~ .content__list-text .modal30 {
+    display: block;
+ }
+
+ .input30:checked ~ .modal__body30{
+     display: block;
+     margin: -3650px 0px 0px -570px;
+ }
+
+
+.modal31{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay31{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+   .modal__body31{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+   
+.input31:checked ~ .content__list-text .modal31{
+    display: block;
+ }
+ .input31:checked ~ .modal__body31{
+     display: block;
+     margin: -3650px 0px 0px -850px;
+ }
+
+ .modal32{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay32{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+   .modal__body32{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+   
+.input32:checked ~ .content__list-text .modal32{
+    display: block;
+ }
+ .input32:checked ~ .modal__body32{
+     display: block;
+     margin: -4120px 0px 0px -10px;
+ }
+
+ .modal33{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay33{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+
+   .modal__body33{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+    
+   .input33:checked ~ .content__list-text .modal33 {
+    display: block;
+ }
+
+ .input33:checked ~ .modal__body33{
+     display: block;
+     margin: -4120px 0px 0px -280px;
+ }
+
+ .modal34{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay34{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+
+   .modal__body34{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+    
+   .input34:checked ~ .content__list-text .modal34{
+    display: block;
+ }
+
+ .input34:checked ~ .modal__body34{
+     display: block;
+     margin: -4120px 0px 0px -570px;
+ }
+
+
+.modal35{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+   }
+
+   .modal__overplay35{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+   }
+
+   .modal__body35{
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+   }
+   
+.input35:checked ~ .content__list-text .modal35 {
+    display: block;
+ }
+ .input35:checked ~ .modal__body35{
+     display: block;
+     margin: -4120px 0px 0px -850px;
+ }
